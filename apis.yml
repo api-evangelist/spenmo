@@ -1,7 +1,23 @@
 aid: spenmo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spenmo.png
 name: Spenmo
-description: Spenmo is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Spenmo was a Singapore-based spend management platform for businesses, offering corporate
+  Visa debit cards (physical and virtual), bill and invoice management with smart scanning, employee
+  reimbursements and claims, and accounting integrations with Xero, NetSuite, QuickBooks and Jurnal.
+  Operated by Digital Services SG Five Pte Ltd, it worked with MAS-licensed payment partners rather than
+  providing regulated payment services directly. The company ceased operations on 14 August 2025 and
+  permanently disabled customer access. No public API or developer program was ever published.
 url: https://raw.githubusercontent.com/api-evangelist/spenmo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,21 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-date: '2025-08-14'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Spend Management
+- Expense Management
+- Corporate Cards
+- Fintech
+- Payments
+- Accounting
+- Singapore
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spenmo-domain-security.yml
 - type: Website
   url: https://spenmo.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
