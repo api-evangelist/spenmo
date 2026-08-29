@@ -30,6 +30,9 @@ description: Spenmo was a Singapore-based spend management platform for business
   providing regulated payment services directly. The company ceased operations on 14 August 2025 and
   permanently disabled customer access. No public API or developer program was ever published.
 url: https://raw.githubusercontent.com/api-evangelist/spenmo/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer program was ever published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
